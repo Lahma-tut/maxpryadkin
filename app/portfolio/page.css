@@ -1,0 +1,43 @@
+.portfolio_item {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 750px;
+    gap: 3rem;
+    list-style-type: none;
+    padding: 17px 0px;
+}
+
+.portfolio_item li {
+    width: 320px;
+    background-color: white;
+    padding: 13px 13px 29px 13px;
+    border-radius: 2px;
+}
+.cards_img {
+    margin: 0px 0px 23px 0px;
+    padding: 0px 0px 86% 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio_item a {
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    transition: color 0.3s;
+}
+
+.portfolio_item a:hover {
+    color: red;
+}
+
+.cards_img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    object-position: top;
+}
+
+.loading {
+    color: red;
+}

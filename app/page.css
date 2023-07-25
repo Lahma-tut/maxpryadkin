@@ -1,0 +1,109 @@
+.block_row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.block_img {
+    width: 260px;
+    height: 280px;
+    margin: 10px 20px;
+    position: relative;
+}
+
+.img_background {
+    background-image: url(https://maxpryadkin.ru/wp-content/uploads/2023/07/IMG_0396-800-web332.jpg);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: morph 8s ease-in-out infinite 1s;
+    background-blend-mode: multiply;
+    -webkit-box-shadow: inset 0px 0px 0px 9px rgba(255,255,255,.3);
+    -moz-box-shadow: inset 0px 0px 0px 9px rgba(255,255,255,.3);
+    box-shadow: inset 0px 0px 0px 9px rgba(255,255,255,.3);
+}
+@keyframes morph {
+    0% {border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;}
+    50% {border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;}
+    100% {border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;}
+}
+
+.skills_row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.skills_column {
+    margin-right: 30px;
+}
+
+.contakt_content {
+    padding-top: 10px;
+}
+
+.contakt_content ul li span:first-child {
+    min-width: 150px;
+    font-weight: 400;
+    color: #000;
+    float: left;
+}
+
+.contakt_content ul li {
+    list-style-type: none;
+}
+
+.contakt_content ul {
+    padding-left: 0;
+}
+
+
+@media (max-width:719px) {
+    .block_row {
+        flex-wrap: wrap-reverse;
+    }
+  }
+  @media (max-width:415px) {
+    .contakt_content {
+        font-size: 14px;
+    }
+    .contakt_content ul li span:first-child {
+        min-width: 140px;
+    }
+
+  }
+
+
+
+
+
+
+
+/* .info_content {
+    display: flex;
+    gap: 3rem;
+}
+
+.info_content ul li {
+    list-style-type: none;
+}
+.info_content ul {
+    padding-left: 0;
+}
+
+.info_content ul li span:first-child {
+    min-width: 180px;
+    float: left;
+    font-weight: 400;
+    color: #000;
+}
+
+.contakt_info {
+    letter-spacing: 0.5px;
+    line-height: 30px;
+
+} */
