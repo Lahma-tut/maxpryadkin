@@ -60,7 +60,9 @@
 .contakt_content ul {
     padding-left: 0;
 }
-
+.info_about {
+    padding-top: 17px;
+}
 
 @media (max-width:719px) {
     .block_row {
@@ -76,34 +78,3 @@
     }
 
   }
-
-
-
-
-
-
-
-/* .info_content {
-    display: flex;
-    gap: 3rem;
-}
-
-.info_content ul li {
-    list-style-type: none;
-}
-.info_content ul {
-    padding-left: 0;
-}
-
-.info_content ul li span:first-child {
-    min-width: 180px;
-    float: left;
-    font-weight: 400;
-    color: #000;
-}
-
-.contakt_info {
-    letter-spacing: 0.5px;
-    line-height: 30px;
-
-} */

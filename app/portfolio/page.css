@@ -24,6 +24,7 @@
     text-decoration: none;
     color: rgb(36, 36, 36);
     transition: color 0.3s;
+    margin-right: 40px;
 }
 
 .portfolio_item a:hover {
@@ -40,4 +41,18 @@
 
 .loading {
     color: red;
+}
+
+.github_link::after {
+    content: "</>";
+    font-size: 0.7em;
+    position: absolute;
+    transform: translate(3px, -7px);
+}
+
+.site_link::after {
+    content: "https";
+    font-size: 0.7em;
+    position: absolute;
+    transform: translate(3px, -7px);
 }

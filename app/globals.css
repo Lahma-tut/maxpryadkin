@@ -13,11 +13,12 @@ body {
 main {
     max-width: 900px;
     padding-right: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 h1, h2, h3, h4 {
     font-weight: 500;
+    color: black;
     line-height: 30px;
     margin: 0;
     padding: 10px 0px 10px 0px;
@@ -33,6 +34,10 @@ h2 {
 
 h3 {
     font-size: 1.17em;
+}
+
+h4 {
+    font-size: 1.0em;
 }
 
 header {
@@ -79,3 +84,8 @@ footer {
     font-weight: 400;
 }
 
+@media (max-width:415px) {
+    body {
+        margin: 40px 0px 40px 26px;
+    }
+}
