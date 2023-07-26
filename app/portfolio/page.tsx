@@ -3,7 +3,7 @@ import Link from 'next/link';
 import './page.css'
 
 async function getData() {
-    const response = await fetch('https://maxpryadkin.ru/products.json', {
+    const response = await fetch('https://5qdns7-8080.csb.app/project', {
         next: {
             revalidate: 60
         }
@@ -17,20 +17,20 @@ export const metadata: Metadata = {
   }
 
 export default async function Portfolio() {
-    const posts = await getData() ;
+    const project = await getData() ;
 
     return (
     <div>
         <h1>Портфолио</h1>
         <ul className='portfolio_item'>
-            {posts.map((post: any) => (
-                <li key={post.id}>
+            {project.map((cart: any) => (
+                <li key={project.id}>
                         <div className='cards_img'>
-                            <img src={ post.image }/>
+                            <img src={ cart.image }/>
                         </div>
-                        <h4>{ post.title }</h4>
-                        <a className='github_link' href={ post.github }>github</a>
-                        <a className='site_link' href={ post.site }>сайт</a>
+                        <h4>{ cart.title }</h4>
+                        <a className='github_link' href={ cart.github }>github</a>
+                        <a className='site_link' href={ cart.site }>сайт</a>
                 </li>
             ))}
         </ul>

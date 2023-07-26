@@ -1,5 +1,5 @@
 export const TheFooter = () => {
     return (
-            <footer>&copy; maxpryadkin.ru</footer>
+            <footer>&copy; React, Next.js</footer>
     )
 }

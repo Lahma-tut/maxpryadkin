@@ -15,7 +15,7 @@
 }
 .cards_img {
     margin: 0px 0px 23px 0px;
-    padding: 0px 0px 86% 0px;
+    padding: 0px 0px 162% 0px;
     position: relative;
     overflow: hidden;
 }
@@ -51,8 +51,8 @@
 }
 
 .site_link::after {
-    content: "https";
-    font-size: 0.7em;
+    content: "+";
+    font-size: 0.9em;
     position: absolute;
     transform: translate(3px, -7px);
 }
