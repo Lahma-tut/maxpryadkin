@@ -4,7 +4,6 @@ const navItems = [
     {label:'МАКСПРЯДКИН', href:'/'},
     {label:'Портфолио', href:'/portfolio'},
     {label:'Опыт работы', href:'/work'},
-    
 ];
 
 export const TheHeader = () => {

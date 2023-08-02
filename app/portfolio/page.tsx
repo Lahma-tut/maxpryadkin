@@ -1,3 +1,4 @@
+import { Project } from '@/components/Project'
 import { Metadata } from 'next'
 import './page.css'
 
@@ -7,8 +8,7 @@ async function getData() {
             revalidate: 60
         }
     })
-
-    return response.json();
+    return response.json()
 }
 
 export const metadata: Metadata = {
@@ -16,23 +16,15 @@ export const metadata: Metadata = {
   }
 
 export default async function Portfolio() {
-    const project = await getData() ;
+    
+    const project = await getData()
 
     return (
     <div>
         <h1>Портфолио</h1>
-        <ul className='portfolio_item'>
-            {project.map((cart: any) => (
-                <li key={project.id}>
-                        <div className='cards_img'>
-                            <img src={ cart.image }/>
-                        </div>
-                        <h4>{ cart.title }</h4>
-                        <a className='github_link' href={ cart.github }>github</a>
-                        <a className='site_link' href={ cart.site }>сайт</a>
-                </li>
-            ))}
-        </ul>
+        <div className="project__body">
+        { project.map((project: any) => <Project project={project} key={project.id} />) }
         </div>
+    </div>
     )
 }

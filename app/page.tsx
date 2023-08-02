@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import './page.css';
+import './page.css'
 
 export const metadata: Metadata = {
   title: 'Обо мне / maxpryadkin.ru',

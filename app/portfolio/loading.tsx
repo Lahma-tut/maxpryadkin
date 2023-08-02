@@ -1,3 +1,3 @@
 export default function Loading() {
-    return <p className='loading'>loading...</p>
+    return <p className="loading">loading...</p>
 }
