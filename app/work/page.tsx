@@ -9,8 +9,8 @@ export default function Work() {
     return (
         <div>
             <h1>Опыт работы</h1>
-            <div className='work_body'>
-                <div className='work_item'>
+            <div className="work_body">
+                <div className="work_item">
                     <h3>ООО Премьер—Агро 05.2019—н.в.</h3>
                     <p>pr—agro.ru</p>
                     <h4>SEO—специалист, Менеджер проекта</h4>
@@ -22,7 +22,7 @@ export default function Work() {
                         <li>Аналитика</li>
                     </ul>
                 </div>
-                <div className='work_item'>
+                <div className="work_item">
                     <h3>ООО ЗемлякоФФ защита растений Центр 08.2014—05.2019</h3>
                     <p>zemlyakoff—centr.ru</p>
                     <h4>SEO—специалист, Интернет маркетолог</h4>
@@ -34,7 +34,7 @@ export default function Work() {
                         <li>SMM, Email-рассылка</li>
                     </ul>
                 </div>
-                <div className='work_item'>
+                <div className="work_item">
                     <h3>Evrone 12.2012—11.2013</h3>
                     <p>evrone.ru</p>
                     <h4>SEO—специалист</h4>
@@ -48,7 +48,7 @@ export default function Work() {
                         </ul>
                     </div>
                 </div>
-                <div className='work_item'>
+                <div className="work_item">
                     <h3>Студия Арктическая Лаборатория 03.2012—12.2012</h3>
                     <p>arcticlab.ru</p>
                     <h4>SEO—специалист</h4>
