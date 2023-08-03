@@ -42,9 +42,9 @@
     margin-right: 30px;
 }
 
-.contakt_content {
+/* .contakt_content {
     padding-top: 10px;
-}
+} */
 
 .contakt_content ul li span:first-child {
     min-width: 150px;
@@ -60,9 +60,6 @@
 .contakt_content ul {
     padding-left: 0;
 }
-.info_about {
-    padding-top: 17px;
-}
 
 @media (max-width:719px) {
     .block_row {
@@ -76,5 +73,4 @@
     .contakt_content ul li span:first-child {
         min-width: 140px;
     }
-
   }

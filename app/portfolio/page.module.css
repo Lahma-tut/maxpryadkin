@@ -1,0 +1,38 @@
+.project__ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.8rem;
+    padding: 0;
+    margin: 0;
+}
+
+.project__li {
+    width: 400px;
+    background-color: white;
+    transition: all 0.3s linear;
+    list-style: none;
+}
+
+.block__img {
+    padding: 0 0 58% 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.block__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    transition: all 0.3s linear;
+}
+
+.block__img img:hover {
+    transform: translate(1%, 1%);
+    cursor: pointer;    
+}
+
+.block__info {
+    padding: 10px 20px;
+}
