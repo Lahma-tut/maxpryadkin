@@ -46,7 +46,7 @@ export default function Home() {
       <h2>Навыки</h2>
         <div className="skills_row">
           <div className="skills_column">
-            <h4>Junior Frontend—разработчик</h4>
+            <h4>Frontend—разработчик</h4>
             <ul>
               <li>React</li>
               <li>Next.js</li>
