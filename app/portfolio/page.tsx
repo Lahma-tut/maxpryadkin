@@ -26,7 +26,7 @@ export default async function Portfolio() {
                 project.map((item: any) => <li key={item.id} className={styles.project__li}>
                     
                         <div className={styles.block__img}>
-                        <Link href={`/portfolio/${item.id}`}><img src={ item.image } /></Link>
+                        <img src={ item.image } />
                         </div>
                         
                         <div className={styles.block__info}>
